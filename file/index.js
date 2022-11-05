@@ -1,4 +1,4 @@
-const  parse  = require ("csv-parser");
+const  {parse}  = require ("csv-parse");
 const  fs  = require ("fs");
 
 const habitablePlanets = []
